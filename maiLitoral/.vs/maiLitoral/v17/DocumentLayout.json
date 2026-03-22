@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\",
+  "WorkspaceRootPath": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\cosmina.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\cosmina.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|c:\\users\\sebi\\desktop\\ii\\ii-project\\mailitoral\\assets\\scripts\\searchbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\searchbarscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\assets\\scripts\\beachproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\beachproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|c:\\users\\sebi\\desktop\\ii\\ii-project\\mailitoral\\assets\\scripts\\beachmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C9AB690-0E1A-6342-2B66-F6A264A29A52}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\beachmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cosmina.txt",
-              "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\cosmina.txt",
-              "RelativeDocumentMoniker": "Assets\\cosmina.txt",
-              "ToolTip": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\cosmina.txt",
-              "RelativeToolTip": "Assets\\cosmina.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-15T18:15:24.711Z",
+              "Title": "SearchBarScript.cs",
+              "DocumentMoniker": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\SearchBarScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SearchBarScript.cs",
+              "ToolTip": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\SearchBarScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SearchBarScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T14:18:40.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeachManager.cs",
+              "DocumentMoniker": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\BeachManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BeachManager.cs",
+              "ToolTip": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\BeachManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BeachManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T21:23:30.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BeachProperties.cs",
+              "DocumentMoniker": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\BeachProperties.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BeachProperties.cs",
+              "ToolTip": "C:\\Users\\Sebi\\Desktop\\II\\II-Project\\maiLitoral\\Assets\\Scripts\\BeachProperties.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BeachProperties.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T21:04:32.206Z",
               "EditorCaption": ""
             }
           ]
