@@ -67,12 +67,14 @@
     <Compile Include="Assets\Scripts\Calendar\SelectedDayData.cs" />
     <Compile Include="Assets\Scripts\Search\SearchAutoCompleteController.cs" />
     <Compile Include="Assets\Scripts\BeachManager.cs" />
+    <Compile Include="Assets\Scripts\Calendar\BeachClickItem.cs" />
     <Compile Include="Assets\Scripts\Settings\LanguageSelectionManager.cs" />
     <Compile Include="Assets\Scripts\Settings\NotificationsSelectionManager.cs" />
     <Compile Include="Assets\Scripts\Search\BeachSearchData.cs" />
     <Compile Include="Assets\Scripts\Settings\BeachRecommendationSelectionManager.cs" />
     <Compile Include="Assets\Scripts\Calendar\CalendarDayUI.cs" />
     <Compile Include="Assets\Scripts\Search\MainContentSearchHandler.cs" />
+    <Compile Include="Assets\Scripts\Calendar\BeachSelectionManager.cs" />
     <Compile Include="Assets\Scripts\Search\TESTSCRIPT.cs" />
     <Compile Include="Assets\Scripts\Calendar\BeachCalendarManager.cs" />
     <Compile Include="Assets\Scripts\Search\SearchBarScript.cs" />

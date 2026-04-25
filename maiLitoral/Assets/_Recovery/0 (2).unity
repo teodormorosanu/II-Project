@@ -656,18 +656,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 22
@@ -756,14 +744,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day
       objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -772,145 +752,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1804680321}
   m_SourcePrefab: {fileID: 100100000, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
---- !u!1 &21210927
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 21210930}
-  - component: {fileID: 21210929}
-  - component: {fileID: 21210928}
-  m_Layer: 5
-  m_Name: SelectedBeachTitle
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &21210928
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21210927}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Mamaia Nord
-
-'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 06d688c6684c2804599a521bb0fda393, type: 2}
-  m_sharedMaterial: {fileID: -5583523190763574906, guid: 06d688c6684c2804599a521bb0fda393, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4282427384
-  m_fontColor: {r: 0.972549, g: 0.654902, b: 0.2509804, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 1
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &21210929
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21210927}
-  m_CullTransparentMesh: 1
---- !u!224 &21210930
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 21210927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 988329644}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4, y: 83}
-  m_SizeDelta: {x: 463.6393, y: 114.6663}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &23570774
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,7 +3027,7 @@ GameObject:
   - component: {fileID: 77739976}
   - component: {fileID: 77739975}
   - component: {fileID: 77739974}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Wednesday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5768,18 +5609,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 7
@@ -5867,14 +5696,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9575,18 +9396,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '18
@@ -9676,14 +9485,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9979,18 +9780,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 8
@@ -10078,14 +9867,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11166,57 +10947,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 215630079}
   m_CullTransparentMesh: 1
---- !u!1 &220289125
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 220289127}
-  - component: {fileID: 220289126}
-  m_Layer: 5
-  m_Name: BeachSelectionManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &220289126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220289125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04f11fe831191e544af71e86acef8403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeachSelectionManager
-  zoneBeachesPanel: {fileID: 468062832}
-  beachCalendarPanel: {fileID: 988329643}
-  selectedBeachTitle: {fileID: 21210928}
---- !u!224 &220289127
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 220289125}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 830201866}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &225528884
 GameObject:
   m_ObjectHideFlags: 0
@@ -14745,18 +14475,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '9
@@ -14846,14 +14564,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16012,18 +15722,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 
@@ -16111,14 +15809,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19836,18 +19526,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 11
@@ -19935,14 +19613,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -25273,18 +24943,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '15
@@ -25374,14 +25032,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27014,7 +26664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &581708138
@@ -27213,7 +26863,7 @@ GameObject:
   - component: {fileID: 586018024}
   - component: {fileID: 586018023}
   - component: {fileID: 586018022}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Sunday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28784,18 +28434,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 
@@ -28883,14 +28521,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -31966,18 +31596,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '14
@@ -32067,14 +31685,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32654,7 +32264,7 @@ GameObject:
   - component: {fileID: 688455906}
   - component: {fileID: 688455905}
   - component: {fileID: 688455904}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Tuesday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33046,7 +32656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -34232,18 +33842,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 26
@@ -34331,14 +33929,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35281,7 +34871,7 @@ GameObject:
   - component: {fileID: 743349962}
   - component: {fileID: 743349961}
   - component: {fileID: 743349960}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Monday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35666,7 +35256,7 @@ GameObject:
   - component: {fileID: 752716494}
   - component: {fileID: 752716493}
   - component: {fileID: 752716492}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MonthDates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39453,7 +39043,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 220289127}
   - {fileID: 988329644}
   - {fileID: 1693128843}
   - {fileID: 468062833}
@@ -39675,7 +39264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &836322512
@@ -40322,18 +39911,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 29
@@ -40421,14 +39998,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40704,7 +40273,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1296537477}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5252109}
+  m_AnchorMin: {x: 0, y: 0.52521086}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -41092,7 +40661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869169598
@@ -42863,8 +42432,6 @@ GameObject:
   - component: {fileID: 904895581}
   - component: {fileID: 904895583}
   - component: {fileID: 904895582}
-  - component: {fileID: 904895584}
-  - component: {fileID: 904895585}
   m_Layer: 5
   m_Name: BeachesPanel_MamaiaNord
   m_TagString: Untagged
@@ -42930,76 +42497,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904895580}
   m_CullTransparentMesh: 1
---- !u!114 &904895584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 904895580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 904895582}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Mamaia Nord
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &904895585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 904895580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac841987ad6d48f418ec31346747a915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeachClickItem
-  manager: {fileID: 220289126}
-  beachName: Mamaia Nord
 --- !u!1 &905192453
 GameObject:
   m_ObjectHideFlags: 0
@@ -43730,18 +43227,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 25
@@ -43830,14 +43315,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -43892,7 +43369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910879328
@@ -46348,18 +45825,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '31
@@ -46449,14 +45914,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48312,7 +47769,7 @@ GameObject:
   - component: {fileID: 988329644}
   - component: {fileID: 988329647}
   - component: {fileID: 988329646}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BeachCalendar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48331,7 +47788,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 21210930}
   - {fileID: 752716494}
   - {fileID: 1265334966}
   - {fileID: 1535525622}
@@ -51706,18 +51162,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '17
@@ -51807,14 +51251,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53681,7 +53117,7 @@ GameObject:
   - component: {fileID: 1091822649}
   - component: {fileID: 1091822648}
   - component: {fileID: 1091822647}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarWeek (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57009,18 +56445,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '19
@@ -57110,14 +56534,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59273,18 +58689,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '10
@@ -59374,14 +58778,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -59499,7 +58895,7 @@ GameObject:
   - component: {fileID: 1208119631}
   - component: {fileID: 1208119630}
   - component: {fileID: 1208119629}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarWeek (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59988,18 +59384,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 12
@@ -60087,14 +59471,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -60897,7 +60273,7 @@ GameObject:
   - component: {fileID: 1231386820}
   - component: {fileID: 1231386819}
   - component: {fileID: 1231386818}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Thursday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61087,18 +60463,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 30
@@ -61186,14 +60550,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -62542,7 +61898,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1265334966}
   - component: {fileID: 1265334967}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66516,7 +65872,7 @@ GameObject:
   - component: {fileID: 1318011131}
   - component: {fileID: 1318011130}
   - component: {fileID: 1318011129}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarDayTitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67550,18 +66906,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 
@@ -67649,14 +66993,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -68316,19 +67652,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348536927}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 'Mamaia Nord '
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1348536927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72367,7 +71691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1414584579
@@ -72463,7 +71787,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1415670676
@@ -73997,7 +73321,7 @@ GameObject:
   - component: {fileID: 1450028062}
   - component: {fileID: 1450028061}
   - component: {fileID: 1450028060}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarWeek (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75333,7 +74657,7 @@ GameObject:
   - component: {fileID: 1473202499}
   - component: {fileID: 1473202498}
   - component: {fileID: 1473202497}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Saturday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75879,18 +75203,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4476943407893287699, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Color.b
       value: 0.015686275
@@ -75986,14 +75298,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -79293,7 +78597,7 @@ GameObject:
   - component: {fileID: 1535525625}
   - component: {fileID: 1535525624}
   - component: {fileID: 1535525623}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80166,7 +79470,7 @@ GameObject:
   - component: {fileID: 1551991034}
   - component: {fileID: 1551991033}
   - component: {fileID: 1551991032}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarWeek (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82080,18 +81384,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1450028059}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '13
@@ -82181,14 +81473,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -82409,7 +81693,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1599091278
@@ -83325,7 +82609,7 @@ GameObject:
   - component: {fileID: 1618163668}
   - component: {fileID: 1618163667}
   - component: {fileID: 1618163666}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83583,18 +82867,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1208119628}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 
@@ -83682,14 +82954,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84548,7 +83812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -84795,18 +84059,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '20
@@ -84896,14 +84148,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -85253,18 +84497,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 6
@@ -85353,14 +84585,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -85377,18 +84601,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4476943407893287699, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Color.b
       value: 0.1333333
@@ -85488,14 +84700,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -92731,7 +91935,7 @@ GameObject:
   - component: {fileID: 1804458468}
   - component: {fileID: 1804458467}
   - component: {fileID: 1804458466}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Friday
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94564,7 +93768,7 @@ GameObject:
   - component: {fileID: 1838151919}
   - component: {fileID: 1838151918}
   - component: {fileID: 1838151917}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96311,7 +95515,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2445.917, y: -58.57062}
+  m_AnchoredPosition: {x: -0.91704, y: 0.42938}
   m_SizeDelta: {x: 1080.7, y: 1913.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1872945836
@@ -99219,18 +98423,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 23
@@ -99318,14 +98510,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -99629,18 +98813,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 21
@@ -99728,14 +98900,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -100109,18 +99273,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 5
@@ -100208,14 +99360,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -102440,18 +101584,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 27
@@ -102539,14 +101671,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -104303,18 +103427,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 24
@@ -104403,14 +103515,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Day (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -104427,18 +103531,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 4476943407893287699, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Color.b
       value: 0.29931644
@@ -104538,14 +103630,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -106559,7 +105643,7 @@ GameObject:
   - component: {fileID: 2084298299}
   - component: {fileID: 2084298298}
   - component: {fileID: 2084298297}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: CalendarWeek
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108169,18 +107253,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1551991031}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: '16
@@ -108270,14 +107342,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -108682,18 +107746,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1091822646}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6186983797129191413, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_text
       value: 28
@@ -108781,14 +107833,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -109153,7 +108197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2130100032
@@ -109498,7 +108542,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 75.75635, y: -56.400146}
+  m_AnchoredPosition: {x: 75.75635, y: -56.40015}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2133823009
@@ -109785,18 +108829,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2084298296}
     m_Modifications:
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 726194460060686826, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Color.a
-      value: 0.39215687
-      objectReference: {fileID: 0}
     - target: {fileID: 1326670327456368119, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_RaycastTarget
       value: 0
@@ -109812,10 +108844,6 @@ PrefabInstance:
     - target: {fileID: 3256501848158539962, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3874619316468944298, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4476943407893287699, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Color.b
@@ -109920,14 +108948,6 @@ PrefabInstance:
     - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
       propertyPath: m_Name
       value: Day
-      objectReference: {fileID: 0}
-    - target: {fileID: 8390705977582144533, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889671958521016129, guid: 701a1bf127535cb4aa560e18749d8414, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

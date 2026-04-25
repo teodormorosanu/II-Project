@@ -20,6 +20,7 @@ public class BeachCalendarManager : MonoBehaviour
     private CalendarDayUI currentlySelectedDay;
     private DateTime currentMonth;
 
+    // Initializes the current month with today's month and starts the calendar setup.
     void Start()
     {
         DateTime today = DateTime.Today;
@@ -30,6 +31,7 @@ public class BeachCalendarManager : MonoBehaviour
         UpdateNavigationButtons();
     }
 
+    // Sets up the left/right buttons and assigns month navigation functions.
     void SetupNavigationButtons()
     {
         if (leftButton != null)
@@ -45,6 +47,7 @@ public class BeachCalendarManager : MonoBehaviour
         }
     }
 
+    // Generates the current month calendar, updates the title, and fills days with status, reason, and color.
     void GenerateCalendar()
     {
         foreach (CalendarDayUI day in allDays)
@@ -75,11 +78,13 @@ public class BeachCalendarManager : MonoBehaviour
         }
     }
 
+    // Converts the weekday so Monday is first and Sunday is last.
     int GetMondayIndex(DayOfWeek day)
     {
         return day == DayOfWeek.Sunday ? 6 : (int)day - 1;
     }
 
+    // Moves the calendar to the previous month while respecting the minimum allowed limit.
     void GoToPreviousMonth()
     {
         DateTime limit = DateTime.Today.AddMonths(-1);
@@ -95,6 +100,7 @@ public class BeachCalendarManager : MonoBehaviour
         UpdateNavigationButtons();
     }
 
+    // Moves the calendar to the next month and refreshes the calendar view.
     void GoToNextMonth()
     {
         currentMonth = currentMonth.AddMonths(1);
@@ -103,6 +109,7 @@ public class BeachCalendarManager : MonoBehaviour
         UpdateNavigationButtons();
     }
 
+    // Updates the visual state of the navigation buttons.
     void UpdateNavigationButtons()
     {
         if (leftButton != null)
@@ -112,6 +119,7 @@ public class BeachCalendarManager : MonoBehaviour
             SetButtonAlpha(rightButton, 1f);
     }
 
+    // Changes the transparency of a button image.
     void SetButtonAlpha(Button button, float alpha)
     {
         Image img = button.GetComponent<Image>();
@@ -124,6 +132,7 @@ public class BeachCalendarManager : MonoBehaviour
         }
     }
 
+    // Clears the currently selected day and removes its highlight.
     void ClearSelection()
     {
         if (currentlySelectedDay != null)
@@ -132,6 +141,7 @@ public class BeachCalendarManager : MonoBehaviour
         currentlySelectedDay = null;
     }
 
+    // Selects a day, saves its data, highlights it, and loads the details scene.
     public void SelectDay(CalendarDayUI day)
     {
         if (currentlySelectedDay != null)
@@ -147,6 +157,7 @@ public class BeachCalendarManager : MonoBehaviour
         SceneManager.LoadScene("DayDetailsScene");
     }
 
+    // Returns the beach status based on the day number.
     string GetStatusForDay(int d)
     {
         if (d % 3 == 1) return "Bun pentru baie";
@@ -154,6 +165,7 @@ public class BeachCalendarManager : MonoBehaviour
         return "Risc ridicat";
     }
 
+    //// Returns the explanation message for a given status.
     string GetReasonForStatus(string s)
     {
         switch (s)
@@ -165,6 +177,7 @@ public class BeachCalendarManager : MonoBehaviour
         }
     }
 
+    // Returns the color associated with a given status.
     Color GetColorForStatus(string s)
     {
         switch (s)

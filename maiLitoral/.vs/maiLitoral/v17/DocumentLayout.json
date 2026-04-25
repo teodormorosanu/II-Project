@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Calendar\\CalendarDayUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\BeachCalendarManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Calendar\\BeachCalendarManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\SelectedDayData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Calendar\\SelectedDayData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Calendar\\CalendarDayUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Search\\SearchAutoCompleteController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,6 +71,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BeachCalendarManager.cs",
+              "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
+              "ToolTip": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T09:59:13.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalendarDayUI.cs",
+              "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
+              "ToolTip": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T09:46:58.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DayDetailsUI.cs",
               "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\DayDetailsUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\DayDetailsUI.cs",
@@ -82,20 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BeachCalendarManager.cs",
-              "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
-              "ToolTip": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Calendar\\BeachCalendarManager.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAF8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T09:59:13.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SelectedDayData.cs",
               "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\SelectedDayData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\SelectedDayData.cs",
@@ -104,18 +117,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T12:24:26.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalendarDayUI.cs",
-              "DocumentMoniker": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
-              "ToolTip": "D:\\Facultate\\AnIII Sem 2\\Proiect c#\\II-Project\\maiLitoral\\Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Calendar\\CalendarDayUI.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T09:46:58.261Z"
             },
             {
               "$type": "Document",
