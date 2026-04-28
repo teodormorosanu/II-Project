@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 391.2
+    x: 494.4
     y: 50.4
     width: 1040.8
     height: 860.8
@@ -708,12 +708,7 @@ MonoBehaviour:
     - m_Data: 338178
     m_LastClickedID:
       m_Data: 338178
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 59206
-    - m_Data: 59208
-    - m_Data: 59210
-    - m_Data: 59212
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,12 +739,7 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 59206
-    - m_Data: 59208
-    - m_Data: 59210
-    - m_Data: 59212
+    m_ExpandedIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
