@@ -11183,7 +11183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f11fe831191e544af71e86acef8403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeachSelectionManager
-  zoneListPanel: {fileID: 1693128842}
+  zoneBeachesPanel: {fileID: 0}
   beachCalendarPanel: {fileID: 988329643}
   selectedBeachTitle: {fileID: 21210928}
 --- !u!224 &220289127
@@ -42839,7 +42839,6 @@ GameObject:
   - component: {fileID: 904895581}
   - component: {fileID: 904895583}
   - component: {fileID: 904895582}
-  - component: {fileID: 904895585}
   m_Layer: 5
   m_Name: BeachesPanel_MamaiaNord
   m_TagString: Untagged
@@ -42905,20 +42904,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904895580}
   m_CullTransparentMesh: 1
---- !u!114 &904895585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 904895580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac841987ad6d48f418ec31346747a915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeachClickItem
-  manager: {fileID: 220289126}
-  beachName: Mamaia Nord
 --- !u!1 &905192453
 GameObject:
   m_ObjectHideFlags: 0
