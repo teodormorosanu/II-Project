@@ -8384,19 +8384,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 178175833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Constanta
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &178175833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11214,7 +11202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -1, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &225528884
@@ -14989,19 +14977,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 315402034}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Mamaia
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &315402034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43306,19 +43282,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 905525708}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Costinesti
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &905525708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45020,19 +44984,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 929230644}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Mamaia Nord
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &929230644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53922,19 +53874,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1094296379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Vama Veche
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1094296379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68259,19 +68199,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1348536927}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 'Mamaia Nord '
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1348536927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76148,19 +76076,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1490092081}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Eforie
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1490092081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84982,19 +84898,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1642543207}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Nord
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1642543207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95741,19 +95645,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1862460412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Mangalia
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1862460412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106862,19 +106754,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2085297932}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 220289126}
-        m_TargetAssemblyTypeName: BeachSelectionManager, Assembly-CSharp
-        m_MethodName: SelectBeach
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Zona Sud Litoral
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2085297932
 MonoBehaviour:
   m_ObjectHideFlags: 0
