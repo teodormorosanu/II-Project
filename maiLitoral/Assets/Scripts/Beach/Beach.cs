@@ -101,4 +101,24 @@ public class Beach : MonoBehaviour
     { // Getter for beach rank
         return rank;
     }
+    public void LoadPropertyFromDatabase(string date, string description, bool status)
+    {
+        if (!beachProperties.ContainsKey(date))
+        {
+            beachProperties[date] = new List<(string description, bool status)>();
+            propertiesModified[date] = new List<bool>();
+        }
+
+        beachProperties[date].Add((description, status));
+        propertiesModified[date].Add(false);
+    }
+    public void SetBeachId(int id)
+    {
+        beachId = id;
+    }
+
+    public void LoadRankFromDatabase(string date, float value)
+    {
+        rank[date] = Mathf.Clamp(value, 0f, 4f);
+    }
 }

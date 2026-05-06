@@ -3,6 +3,7 @@ using SQLite4Unity3d;
 using System.IO;
 using System;
 using System.Linq;
+using System.Collections.Generic;
 
 public class DatabaseManager : MonoBehaviour
 {
@@ -408,5 +409,106 @@ public class DatabaseManager : MonoBehaviour
         }
 
         UnityEngine.Debug.Log("Rank added/updated.");
+    }
+    public List<ZoneData> GetAllZones()
+    {
+        return db.Table<ZoneData>().ToList();
+    }
+    public List<BeachData> GetAllBeaches()
+    {
+        return db.Table<BeachData>().ToList();
+    }
+
+    public List<BeachData> GetBeachesByZone(int zoneId)
+    {
+        return db.Table<BeachData>()
+            .Where(b => b.ZoneId == zoneId)
+            .ToList();
+    }
+
+    public int GetBeachCount()
+    {
+        return db.Table<BeachData>().Count();
+    }
+
+    public int GetZoneCount()
+    {
+        return db.Table<ZoneData>().Count();
+    }
+
+    public ZoneData GetZoneById(int zoneId)
+    {
+        return db.Find<ZoneData>(zoneId);
+    }
+
+    public BeachData GetBeachById(int beachId)
+    {
+        return db.Find<BeachData>(beachId);
+    }
+
+    public List<(string description, bool status)> GetPropertiesForBeachDay(int beachId, string date)
+    {
+        List<(string description, bool status)> result =
+            new List<(string description, bool status)>();
+
+        CalendarDayData day = db.Table<CalendarDayData>()
+            .FirstOrDefault(d => d.BeachId == beachId && d.Date == date);
+
+        if (day == null)
+            return result;
+
+        foreach (BeachDayPropertyData value in db.Table<BeachDayPropertyData>()
+                     .Where(v => v.CalendarDayId == day.Id))
+        {
+            PropertyData property = db.Find<PropertyData>(value.PropertyId);
+
+            if (property != null && property.Type == "bool")
+            {
+                result.Add((property.Name, value.BoolValue ?? false));
+            }
+        }
+
+        return result;
+    }
+
+    public float GetRankForBeachDay(int beachId, string date)
+    {
+        CalendarDayData day = db.Table<CalendarDayData>()
+            .FirstOrDefault(d => d.BeachId == beachId && d.Date == date);
+
+        if (day == null)
+            return 0f;
+
+        PropertyData rankProperty = db.Table<PropertyData>()
+            .FirstOrDefault(p => p.Name == "Rank");
+
+        if (rankProperty == null)
+            return 0f;
+
+        BeachDayPropertyData value = db.Table<BeachDayPropertyData>()
+            .FirstOrDefault(v => v.CalendarDayId == day.Id &&
+                                 v.PropertyId == rankProperty.Id);
+
+        if (value == null || value.IntValue == null)
+            return 0f;
+
+        return value.IntValue.Value;
+    }
+
+    public List<(string name, float rank)> GetTop3BeachesByRank(string date)
+    {
+        List<(string name, float rank)> result =
+            new List<(string name, float rank)>();
+
+        foreach (BeachData beach in db.Table<BeachData>())
+        {
+            float beachRank = GetRankForBeachDay(beach.Id, date);
+            result.Add((beach.Name, beachRank));
+        }
+
+        return result
+            .OrderByDescending(b => b.rank)
+            .Take(3)
+            .ToList();
     }
 }
