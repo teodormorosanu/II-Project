@@ -19,14 +19,14 @@ public class ZonesManager : MonoBehaviour
 
     private void Awake()
     {
-        LoadZonesFromDatabase(); // Loading zones from data base *needs to be implemented*
+        LoadZonesFromDatabase();
     }
 
     /* Custom Methods */
 
+    // Loads all zones from the database and creates a button for each one.
     private void LoadZonesFromDatabase()
-    { // Loading zones from data base *needs to be implemented*
-        // For each zone in database, add a new object inside zone list
+    {
         if (zones == null || SceneManager.GetActiveScene().name != "StartingPage")
         {
             return;
@@ -34,13 +34,11 @@ public class ZonesManager : MonoBehaviour
 
         List<ZoneData> zonesFromDatabase = DatabaseManager.Instance.GetAllZones();
 
-        for (int i = 0; i < zonesFromDatabase.Count; i++)
+        foreach (ZoneData zoneData in zonesFromDatabase)
         {
-            ZoneData zoneData = zonesFromDatabase[i];
-
             GameObject newZone = Instantiate(zonePrefab, zonesContent.transform); // Instantiating a new zone
             newZone.name = "Zone_" + zoneData.Id;
-            newZone.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = zoneData.Name; // Setting the zone name in it's text field
+            newZone.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = zoneData.Name; // Setting the zone name in its text field
 
             int zoneId = zoneData.Id;
             newZone.GetComponent<Button>().onClick.AddListener(() => SelectZone(zoneId)); // Adding the correspondent listener to zone button
@@ -49,21 +47,24 @@ public class ZonesManager : MonoBehaviour
         }
     }
 
+    // Saves the selected zone id and opens the beach page.
     private void SelectZone(int index)
-    { // Open selected zone panel
-        currentPressedZone = index; // Saving the current pressed zone
-        ButtonsManager.ReturnToPage("BeachPage"); // Switching scene
+    {
+        currentPressedZone = index;
+        ButtonsManager.ReturnToPage("BeachPage");
     }
 
     /* Getters */
 
+    // Returns the id of the currently selected zone.
     public static int GetCurrentPressedZone()
-    { // Getter for the current zone pressed
+    {
         return currentPressedZone;
     }
 
+    // Returns the instantiated zone objects.
     public List<GameObject> GetZones()
-    { // Getter for zones list
+    {
         return zones;
     }
 }
